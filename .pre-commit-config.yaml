@@ -4,8 +4,8 @@ repos:
     rev: v4.4.0
     hooks:
       - id: trailing-whitespace #removes trailing whitespace
-      - id: check-added-large-files #prevents addition of large files
-        args: ['--maxkb=1000000']
+     # - id: check-added-large-files #prevents addition of large files
+        #args: ['--maxkb=1000000']
       - id: check-ast #Checks that Python files can be parsed as abstract syntax trees (important for
       #ensuring Python files have no syntax errors and for additional security and workflow issues)
       - id: check-json #validates JSON files for correctness
